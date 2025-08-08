@@ -143,9 +143,9 @@ body::before {
 
 .humiText1{
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 17%;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
     opacity: 90%;
 }
@@ -154,5 +154,34 @@ body::before {
     position: absolute;
     top: 55%;
     left: 17%;
+    font-size: 20px;
+}
+
+.windIcon {
+    position: absolute;
+    top: 50%;
+    right:32%;
+}
+
+.windIcon .material-symbols-outlined {
+    font-size: 60px;  
+    opacity: 60%;
+    width: auto;      
+    height: auto;
+}
+
+.windText1{
+    position: absolute;
+    top: 51%;
+    right: 8%;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 90%;
+}
+
+.windText2{
+    position: absolute;
+    top: 55%;
+    right: 14%;
     font-size: 20px;
 }
