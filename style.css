@@ -207,7 +207,7 @@ body::before {
     min-width: 120px;  
     min-height: 150px;  
     text-align: center;
-    flex-shrink: 0;     
+    flex-shrink: 0;    
     font-size: 16px;   
     padding: 10px; 
     border-radius: 12px; 
@@ -223,3 +223,65 @@ body::before {
     width: 80px;
     height: 80px;
 }
+
+.text1{
+    position: absolute;
+    font-weight: 500;
+    top: 20%;
+    left: 27%;
+    font-size: 100px;
+}
+.text2{
+    position: absolute;
+    font-weight: 500;
+    top: 20%;
+    left: 60%;
+    font-size: 100px;
+}
+.imageWorld img{
+    position: absolute;
+    top:24%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+.imageWorld img:hover {
+    transform: scale(1.1);
+}
+
+.text3{
+    position: absolute;
+    font-weight: 500;
+    top: 40%;
+    left: 8%;
+    font-size: 70px;
+    letter-spacing: 8px;
+}
+.text4{
+    opacity: 60%;
+    position: absolute;
+    font-weight: 500;
+    top: 55%;
+    left: 18%;
+    font-size: 40px;
+}
+.btn button {
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #007BFF;  
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn button:hover {
+    background-color: #0056b3; 
+  }
+  
