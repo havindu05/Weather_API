@@ -50,7 +50,29 @@ body::before {
     border: 3px solid transparent;
     background: rgba(0, 0, 0, 0.15);
     outline: none;
+    font-weight: 500;
+    transition: 0.25s border;
+    padding-right: 80px;
 }
-.city input ::placeholder{
+
+.city:focus{
+    border: 3px solid rgb(0,0,0,0.15);
+}
+.city::placeholder{
     color: rgb(225,225,225,0.75);
+}
+.searchbtn{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    width: 30px;       
+    height: 30px;     
+    border-radius: 50%; 
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   cursor: pointer;
+
 }
