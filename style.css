@@ -211,10 +211,12 @@ body::before {
     font-size: 16px;   
     padding: 10px; 
     border-radius: 12px; 
+    transition: all 0.3s ease-in-out;
 }
 
 .forecastItem:hover{
-    transition: all;
+    transform: scale(1.1); 
+    background: rgba(225, 225, 225, 0.2);
 }
 
 .forecastItem img {
