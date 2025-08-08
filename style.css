@@ -127,3 +127,32 @@ body::before {
     right: 5%;
     font-size: 25px;
 }
+
+.humiIcon {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.humiIcon .material-symbols-outlined {
+    font-size: 60px;  
+    opacity: 60%;
+    width: auto;      
+    height: auto;
+}
+
+.humiText1{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    font-size: 28px;
+    font-weight: 500;
+    opacity: 90%;
+}
+
+.humiText2{
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    font-size: 20px;
+}
