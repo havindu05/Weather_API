@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 body {
@@ -29,7 +29,7 @@ body::before {
     height: 100dvh;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(4px);
-    z-index: 0; 
+    z-index: 0;
 }
 
 .main {
@@ -38,12 +38,13 @@ body::before {
     height: 600px;
     z-index: 1;
     position: relative;
-    background: linear-gradient(to top, rgb(0,0,0,0.15),rgb(225,225,225,0.15));
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.15), rgb(225, 225, 225, 0.15));
     border-radius: 12px;
     backdrop-filter: blur(100px);
     padding: 20px;
 }
-.city{
+
+.city {
     width: 100%;
     border-radius: 99px;
     padding: 10px 16px;
@@ -56,42 +57,73 @@ body::before {
     margin-bottom: 20px;
 }
 
-.city:focus{
-    border: 3px solid rgb(0,0,0,0.15);
+.city:focus {
+    border: 3px solid rgb(0, 0, 0, 0.15);
 }
-.city::placeholder{
-    color: rgb(225,225,225,0.75);
+
+.city::placeholder {
+    color: rgb(225, 225, 225, 0.75);
 }
-.searchbtn{
+
+.searchbtn {
     position: absolute;
     top: 5%;
     left: 85%;
-    width: 30px;       
-    height: 30px;     
-    border-radius: 50%; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     border: none;
     background: none;
     display: flex;
     align-items: center;
     justify-content: center;
-   cursor: pointer;
+    cursor: pointer;
 
 }
-.loactionIcon{
+
+.loactionIcon {
     position: absolute;
     top: 16%;
-    left: 7%;  
+    left: 7%;
 }
-.loacation{
+
+.loacation {
     position: absolute;
     top: 14%;
     left: 12%;
     font-size: 35px;
     font-weight: bold;
 }
-.date{
+
+.date {
     position: absolute;
     top: 16%;
     left: 72%;
     font-size: 20px;
+}
+
+.weatherIcon {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.weatherIcon img {
+    width: 200px;
+    height: 200px;
+}
+
+.temp {
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.tempText {
+    position: absolute;
+    top: 38%;
+    right: 5%;
+    font-size: 25px;
 }
