@@ -53,6 +53,7 @@ body::before {
     font-weight: 500;
     transition: 0.25s border;
     padding-right: 80px;
+    margin-bottom: 20px;
 }
 
 .city:focus{
@@ -75,4 +76,22 @@ body::before {
     justify-content: center;
    cursor: pointer;
 
+}
+.loactionIcon{
+    position: absolute;
+    top: 16%;
+    left: 7%;  
+}
+.loacation{
+    position: absolute;
+    top: 14%;
+    left: 12%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.date{
+    position: absolute;
+    top: 16%;
+    left: 72%;
+    font-size: 20px;
 }
