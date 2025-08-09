@@ -24,49 +24,58 @@
 
 
         <section class="weatherInfo">
-            <div class="loactionIcon">
-                <span class="material-symbols-outlined">
-                    location_on
-                </span>
-            </div>
-            <div class="loacation">
-                Sri Lanka
-            </div>
-            <div class="date">
-                Sat, 08 Aug
-            </div>
+            <div class="wrapper">
+                <span class="material-symbols-outlined loactionIcon">location_on</span>
+                <span class="loacation">Sri Lanka </span>
+                <span class="loacationCity">Ambalangoda</span>
+                <div class="date">Sat, 08 Aug</div>
+                <div class="Time" id="localTime">12:00 PM</div>
+              </div>
             <div class="weatherIcon">
-                <img src="assest/images/Weather-removebg-preview.png" alt="pic">
+                <img src="assest/images/Weather-removebg-preview.png" alt="Weather Icon">
             </div>
-            <div class="temp">
-                29°C
+        
+            <div class="temp">29°C</div>
+            <div class="tempText">Cloudy</div>
+        
+            <div class="humidityWindContainer">
+                <div class="humidity">
+                    <span class="material-symbols-outlined humiIcon">water_drop</span>
+                    <span class="humiText1">Humidity</span>
+                    <span class="humiText2">75%</span>
+                </div>
+                <div class="wind">
+                    <span class="material-symbols-outlined windIcon">air</span>
+                    <span class="windText1">Wind Speed</span>
+                    <span class="windText2">1.54 M/s</span>
+                </div>
             </div>
-            <div class="tempText">
-                Cloudy
-            </div>
-            <div class="humiIcon">
-                <span class="material-symbols-outlined">
-                    water_drop
-                </span>
-            </div>
-            <div class="humiText1">
-                Humidty
-            </div>
-            <div class="humiText2">
-                75%
-            </div>
-            <div class="windIcon">
-                <span class="material-symbols-outlined">
-                    air
-                </span>
-            </div>
-            <div class="windText1">
-                Wind Speed
-            </div>
-            <div class="windText2">
-                1.54 M/s
-            </div>
-
+            
+           <div class="infoContainer"> 
+                <div class="infoItem" id="cloudCover">
+                  <span class="infoLabel">Cloud Cover</span>
+                  <span class="infoValue">75%</span>
+                </div>
+              
+                <div class="infoItem" id="uvIndex">
+                  <span class="infoLabel">UV Index</span>
+                  <span class="infoValue">5</span>
+                </div>
+              
+                <div class="infoItem" id="pressure">
+                  <span class="infoLabel">Pressure</span>
+                  <span class="infoValue">1013 hPa</span>
+                </div>
+              
+                <div class="infoItem" id="visibility">
+                  <span class="infoLabel">Visibility</span>
+                  <span class="infoValue">10 km</span>
+                </div>
+              </div> 
+               
+            
+        </section>
+        
 
             <div class="forecastItemsPack">
 
@@ -108,6 +117,7 @@
             </div>
         </section>
     </div>
+    <script src="home.js"></script>
 </body>
 
 </html>
